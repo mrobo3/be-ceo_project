@@ -2,10 +2,13 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <title>JS with Codeit</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Be CEO</title>
   </head>
-
+  <script>
+    function myclick() {
+      console.log(event.target.id);
+    }
+  </script>
   <body>
     <h1>유정훈 사장 연봉 5억 찍다.</h1>
     <h3>하지만 빚이 13억이다.</h3>
@@ -13,5 +16,7 @@
     <h5>문동환사원 검찰조사결과 부정부패의 끝판왕으로 알려져...</h5>
     <hr />
     <p>사장이되자</p>
+    <button id="mybtn" onclick="myclick()">테스트버튼</button>
+    <p>버튼확인</p>
   </body>
 </html>
